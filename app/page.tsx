@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <section className="py-24">
-      <div className="container pt-4">
+    <section className="py-6">
+      <div className="container">
         <h1 className="text-3xl mb-2">Hello World</h1>
         <p className="text-muted-foreground">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tempore

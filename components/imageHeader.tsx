@@ -10,9 +10,18 @@ import MenuButton from "./menuButton";
 // hidden sm:block
 
 export default function Header() {
+  const headerStyle: React.CSSProperties = {
+    backgroundImage: "url(/pictures/forest-road.jpg)", // Path relative to public folder
+    backgroundSize: "cover",
+    backgroundPosition: "bottom",
+  };
+
   return (
-    <header className="fixed inset-x-0 top-0 py-6 background/75 backdrop-blur-sm z-50 container ">
-      <nav className="flex items-center justify-between">
+    <header
+      className="w-full z-50 py-6 h-[400px] sm:h-[500px] md:h-[600px] lg:h-[800px] xl:h-[1000px] 2xl:[1200px] "
+      style={headerStyle}
+    >
+      <nav className="flex items-center justify-between container">
         <div>
           <Link href="/" className="text-2xl font-bold">
             Logo

@@ -1,9 +1,9 @@
-import GitHub from "@/app/public/icons/gitHub";
-import LinkedIn from "@/app/public/icons/linkedin";
+import GitHub from "@/public/icons/github";
+import LinkedIn from "@/public/icons/linkedin";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-700 py-8">
+    <footer className="py-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:justify-between container">
         <div className="flex items-center justify-center ">
           <p className="text-xs text-muted-foreground">
