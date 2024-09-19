@@ -24,8 +24,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* <Header /> */}
-          <ImageHeader />
+          <Header />
+          {/* <ImageHeader /> */}
           <main className="grow">{children}</main>
           <Footer />
         </ThemeProvider>
