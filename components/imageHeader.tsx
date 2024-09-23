@@ -11,9 +11,9 @@ import MenuButton from "./menuButton";
 
 export default function Header() {
   const headerStyle: React.CSSProperties = {
-    backgroundImage: "url(/pictures/forest-road.jpg)", // Path relative to public folder
+    backgroundImage: "url(/pictures/forest.jpeg)", // Path relative to public folder
     backgroundSize: "cover",
-    backgroundPosition: "bottom",
+    backgroundPosition: "middle",
   };
 
   return (
